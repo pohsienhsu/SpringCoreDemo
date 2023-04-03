@@ -1,9 +1,9 @@
-package com.springproject.springcoredemo;
+package com.springproject.springcoredemo.common;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class CricketCoach implements Coach{
+public class CricketCoach implements Coach {
 
     @Override
     public String getDailyWorkout() {
